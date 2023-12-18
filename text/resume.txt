@@ -6,9 +6,9 @@
 
 inzio => lettara degli elfi => accetti           => si
 primo =>  Foresta delle Lucciole => indovinello  => tastiera
-secondo => grotta degli specchi => costellazioni => 6 costellazioni => 
+secondo => grotta degli specchi => costellazioni => 4 costellazioni => Fopc fenice,orione, pesci, cassiopea
 terzo => villaggio ghiacciato => sudoku          => numeri centrali con una sequenza
-quarto => capo elfo inegnare Lillo => cifrato    => settemillimetri
+quarto => capo elfo inegnere Lillo => cifrato    => settemillimetri
 
 
 gli consegna i materiali raccolti (lucciole, specchi e ghiaccio magico), e con un codice cifrato, esse creerà lo strumento che salverà il natale.
