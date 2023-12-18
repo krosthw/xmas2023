@@ -1,9 +1,7 @@
 'use client'
 import Image from 'next/image'
 import { useRouter, } from 'next/navigation';
-import router from 'next/router';
 import { useState, useEffect } from 'react';
-import profilePic from '@/media/sudoku.png'
 
 
 export default function Home() {

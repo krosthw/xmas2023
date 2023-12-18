@@ -23,7 +23,7 @@ export default function Home() {
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-lime-100">Cara Federica,</h5>
         </a>
         <p className="mb-3 font-normal text-lime-100">
-          Il tuo viaggio attraverso la Grotta degli Specchi ha mostrato la tua capacità di riflettere e comprendere le sfide più intricate. Ora, il tuo cammino continua verso il Villaggio Ghiacciato, un luogo dove l'antica arte di estrarre il ghiaccio magico è stata interrotta da un enigma gelido.
+          Il tuo viaggio attraverso la Grotta degli Specchi ha mostrato la tua capacità di riflettere e comprendere le sfide più intricate. Ora, il tuo cammino continua verso il Villaggio Ghiacciato, un luogo dove l&#39;antica arte di estrarre il ghiaccio magico è stata interrotta da un enigma gelido.
           <br />
           <br />
           Il mastro estrattore, guardiano del ghiaccio magico, ha bisogno del tuo aiuto. Una cassetta contenente gli attrezzi per l&#39;estrazione del ghiaccio è bloccata da una combinazione segreta, un intricato puzzle che deve essere risolto prima che il ghiaccio possa essere estratto.

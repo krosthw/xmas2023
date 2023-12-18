@@ -26,13 +26,13 @@ export default function Home() {
           Il cammino attraverso la Foresta delle Lucciole ha rivelato la tua abilità nel mantenere viva la luce del Natale. Ora, la tua via prosegue verso un luogo che sfida la percezione e la realtà: la Grotta degli Specchi.
           <br />
           <br />
-          Alla fine della foresta, troverai la bocca di una grotta nascosta dietro un albero maestoso, come se la natura stessa nascondesse il suo ingresso. La porta d'ingresso è ornata da una serie di incisioni misteriose, e solo risolvendo un antico enigma potrai rivelarne il segreto e quindi entrare nella Grotta per recuperare gli specchi.
+          Alla fine della foresta, troverai la bocca di una grotta nascosta dietro un albero maestoso, come se la natura stessa nascondesse il suo ingresso. La porta d&#39;ingresso è ornata da una serie di incisioni misteriose, e solo risolvendo un antico enigma potrai rivelarne il segreto e quindi entrare nella Grotta per recuperare gli specchi.
           <br />
           <br />
-          Le iniziali sulla porta, se interpretate correttamente, riveleranno una combinazione segreta. Esse sono un'antica chiave che si collega alle costellazioni, custodi del mistero del cielo. Studia attentamente le stelle, le loro forme e i loro nomi, perché sono esse a dettare la combinazione segreta che sbloccherà l'accesso alla Grotta degli Specchi.
+          Le iniziali sulla porta, se interpretate correttamente, riveleranno una combinazione segreta. Esse sono un&#39;antica chiave che si collega alle costellazioni, custodi del mistero del cielo. Studia attentamente le stelle, le loro forme e i loro nomi, perché sono esse a dettare la combinazione segreta che sbloccherà l&#39;accesso alla Grotta degli Specchi.
           <br />
           <br />
-          Quando le tue conoscenze astrologiche si uniranno, riuscirai a decifrare l'antico codice che apre le porte della grotta, svelando il mondo di riflessi e illusioni che attendono al suo interno. Solo coloro che hanno dimostrato di comprendere l'arcano dei cieli potranno accedere ai segreti nascosti nella Grotta degli Specchi.
+          Quando le tue conoscenze astrologiche si uniranno, riuscirai a decifrare l&#39;antico codice che apre le porte della grotta, svelando il mondo di riflessi e illusioni che attendono al suo interno. Solo coloro che hanno dimostrato di comprendere l&#39;arcano dei cieli potranno accedere ai segreti nascosti nella Grotta degli Specchi.
           <br />
           <br />
           Affronta questa sfida con saggezza e determinazione, Luca, e i segreti degli specchi si apriranno a te, portando la luce del mistero nella tua missione per riportare la magia del Natale nel mondo.
