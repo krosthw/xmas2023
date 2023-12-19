@@ -31,7 +31,7 @@ export default function Home() {
           Il mastro estrattore, guardiano del ghiaccio magico, ha bisogno del tuo aiuto. Una cassetta contenente gli attrezzi per l&#39;estrazione del ghiaccio è bloccata da una combinazione segreta, un intricato puzzle che deve essere risolto prima che il ghiaccio possa essere estratto.
           <br />
           <br />
-          La combinazione per sbloccare la cassetta è nascosta in un sudoku speciale, un enigma numerico che richiede la tua abilità nel collocare i numeri giusti nelle giuste posizioni. Risolvendo correttamente il sudoku, scegliendo i numeri giusti nell&#39;ordine corretto riuscirai ad aprire la cassetta degli attrezzi.
+          La combinazione per sbloccare la cassetta è nascosta in un gioco alquanto strano, un enigma numerico che richiede la tua abilità nel collocare i numeri giusti nelle giuste posizioni. Risolvendo correttamente il puzzle, e poi scegliendo i numeri giusti nell&#39;ordine corretto riuscirai ad aprire la cassetta degli attrezzi.
           <br />
           <br />
           Sii paziente, osserva attentamente le cifre e metti insieme il puzzle numerico. Quando avrai trovato la combinazione esatta, avrai accesso agli strumenti necessari per estrarre il ghiaccio magico che è vitale per il nostro incantesimo di Natale.
@@ -72,7 +72,7 @@ export default function Home() {
         <br />
         <div>
           <label htmlFor="input1" className="block mb-2 text-sm font-medium text-white">Risposta:</label>
-          <input type="text" onChange={(event) => setNameInput(event.target.value)} name="input1" id="input1" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="rispondi qui" required />
+          <input type="text" onChange={(event) => setNameInput(event.target.value)} name="input1" id="input1" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="3...." required />
           <br />
           <button onClick={() => verify()} className="px-3 py-2 flex text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
             Conferma
