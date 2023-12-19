@@ -42,7 +42,7 @@ export default function Home() {
         <br />
         <br />
         <div className="max-w-sm p-6 bg-lime-100 border border-lime-200 rounded-lg italic text-lg">
-          Non cammina, non corre, ma spesso viaggia. Non ha bocca ma può dire molte parole. Cosa è?"
+          Non cammina, non corre, ma spesso viaggia. Non ha bocca ma può dire molte parole. Cosa è?
         </div>
         <br />
         <div>
