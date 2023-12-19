@@ -1,3 +1,5 @@
+
+
 import Image from 'next/image'
 
 export default function Home() {
@@ -34,12 +36,12 @@ export default function Home() {
         <div>
           <label htmlFor="input1" className="block mb-2 text-sm font-medium text-white">Accetti??:</label>
         </div>
-        <div className="inline-flex items-center ">
-          <a href="#" className="px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
-            NO
+        <div className=" flex justify-around">
+          <a href="/grinch" className="px-3 py-2 text-sm font-medium text-center text-white bg-red-500 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 ">
+            NON MI VA
           </a>
           <a href="/phase1" className="px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
-            SI
+            CERTO 
           </a>
         </div>
       </div>

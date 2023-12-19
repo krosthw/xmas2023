@@ -8,7 +8,7 @@ export default function Home() {
   const [nameInput, setNameInput] = useState("");
   const router = useRouter();
   const verify = () => {
-    if (nameInput === "settemillimetri") {
+    if (nameInput.toLocaleLowerCase().trim() === "settemillimetri") {
       console.log(nameInput)
       router.push('/final')
     }

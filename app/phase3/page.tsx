@@ -4,13 +4,15 @@ import { useRouter, } from 'next/navigation';
 import router from 'next/router';
 import { useState, useEffect } from 'react';
 import profilePic from '@/media/sudoku.png'
+import sudokunumber from '@/media/sudoku_number.png'
+import sudokuorder from '@/media/sudoku_order.png'
 
 
 export default function Home() {
   const [nameInput, setNameInput] = useState("");
   const router = useRouter();
   const verify = () => {
-    if (nameInput === "") {
+    if (nameInput.toLocaleLowerCase().trim() === "325634613") {
       console.log(nameInput)
       router.push('/phase4')
     }
@@ -29,7 +31,7 @@ export default function Home() {
           Il mastro estrattore, guardiano del ghiaccio magico, ha bisogno del tuo aiuto. Una cassetta contenente gli attrezzi per l&#39;estrazione del ghiaccio è bloccata da una combinazione segreta, un intricato puzzle che deve essere risolto prima che il ghiaccio possa essere estratto.
           <br />
           <br />
-          La combinazione per sbloccare la cassetta è nascosta in un sudoku speciale, un enigma numerico che richiede la tua abilità nel collocare i numeri giusti nelle giuste posizioni. Risolvendo correttamente il sudoku, scoprirai la sequenza di numeri necessaria per aprire la cassetta degli attrezzi.
+          La combinazione per sbloccare la cassetta è nascosta in un sudoku speciale, un enigma numerico che richiede la tua abilità nel collocare i numeri giusti nelle giuste posizioni. Risolvendo correttamente il sudoku, scegliendo i numeri giusti nell&#39;ordine corretto riuscirai ad aprire la cassetta degli attrezzi.
           <br />
           <br />
           Sii paziente, osserva attentamente le cifre e metti insieme il puzzle numerico. Quando avrai trovato la combinazione esatta, avrai accesso agli strumenti necessari per estrarre il ghiaccio magico che è vitale per il nostro incantesimo di Natale.
@@ -44,18 +46,27 @@ export default function Home() {
         </p>
         <br />
         <br />
-        <div className="max-w-sm p-6 bg-lime-100 border border-lime-200 rounded-lg italic text-lg">
+        <div className="max-w-sm p-6 bg-lime-100 border border-lime-200 rounded-lg italic text-lg ">
           <Image
             src={profilePic}
-            alt="Picture of the author"
+            alt="c"
             width={500}
             height={500}
           />
+          <br />
           <Image
-            src={profilePic}
-            alt="Picture of the author"
-            width={500}
-            height={500}
+            src={sudokunumber}
+            alt="a"
+            width={100}
+            height={100}
+          />
+
+          <br />
+          <Image
+            src={sudokuorder}
+            alt="c"
+            width={100}
+            height={100}
           />
         </div>
         <br />

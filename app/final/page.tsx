@@ -5,16 +5,6 @@ import { useState, useEffect } from 'react';
 
 
 export default function Home() {
-  const [nameInput, setNameInput] = useState("");
-  const router = useRouter();
-  const verify = () => {
-    if (nameInput === "settemillimetri") {
-      console.log(nameInput)
-      router.push('/final')
-    }
-  }
-
-
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-4">
       <div className="max-w-sm p-6 bg-lime-900 border border-lime-200 rounded-lg shadow">

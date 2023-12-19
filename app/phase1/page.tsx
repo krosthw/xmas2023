@@ -8,7 +8,7 @@ export default function Home() {
   const [nameInput, setNameInput] = useState("");
   const router = useRouter();
   const verify = () => {
-    if (nameInput === "francobollo") {
+    if (nameInput.toLocaleLowerCase().trim() === "francobollo") {
       console.log(nameInput)
       router.push('/phase2')
     }

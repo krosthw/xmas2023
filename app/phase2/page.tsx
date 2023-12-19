@@ -10,7 +10,7 @@ export default function Home() {
   const [nameInput, setNameInput] = useState("");
   const router = useRouter();
   const verify = () => {
-    if (nameInput === "focp") {
+    if (nameInput.toLocaleLowerCase().trim() === "fopc") {
       console.log(nameInput)
       router.push('/phase3')
     }
