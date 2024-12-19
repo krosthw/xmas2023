@@ -12,7 +12,7 @@ export default function Home() {
   const [nameInput, setNameInput] = useState("");
   const router = useRouter();
   const verify = () => {
-    if (nameInput.toLocaleLowerCase().trim() === "325634613") {
+    if (nameInput.toLocaleLowerCase().trim() === "1") {
       console.log(nameInput)
       router.push('/phase4')
     }
@@ -25,24 +25,25 @@ export default function Home() {
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-lime-100">Cara Federica,</h5>
         </a>
         <p className="mb-3 font-normal text-lime-100">
-          Il tuo viaggio attraverso la Grotta degli Specchi ha mostrato la tua capacità di riflettere e comprendere le sfide più intricate. Ora, il tuo cammino continua verso il Villaggio Ghiacciato, un luogo dove l&#39;antica arte di estrarre il ghiaccio magico è stata interrotta da un enigma gelido.
+          La tua avventura continua, e ogni passo che fai ci avvicina sempre di più a salvare il Natale. Dopo aver recuperato la Sabbia dei Sogni e le Rocce di Luna, ora è il momento di affrontare la tua terza missione.
           <br />
           <br />
-          Il mastro estrattore, guardiano del ghiaccio magico, ha bisogno del tuo aiuto. Una cassetta contenente gli attrezzi per l&#39;estrazione del ghiaccio è bloccata da una combinazione segreta, un intricato puzzle che deve essere risolto prima che il ghiaccio possa essere estratto.
+          Devi dirigerti verso il Deposito Abbandonato degli Elfi, un luogo che un tempo era il cuore pulsante della nostra officina. Qui si trova il prezioso Kit di Costruzione della Meraviglia, uno strumento indispensabile per completare la nostra missione e riportare armonia al Polo Nord.
           <br />
           <br />
-          La combinazione per sbloccare la cassetta è nascosta in un gioco alquanto strano, un enigma numerico che richiede la tua abilità nel collocare i numeri giusti nelle giuste posizioni. Risolvendo correttamente il puzzle, e poi scegliendo i numeri giusti nell&#39;ordine corretto riuscirai ad aprire la cassetta degli attrezzi.
+          Purtroppo, il deposito è ormai in disordine da molto tempo. Per trovare il Kit, dovrai rimettere tutto in ordine. Gli oggetti sono sparsi e le antiche regole di organizzazione degli elfi devono essere seguite alla perfezione. Non sarà facile, ma so che la tua pazienza e il tuo talento ti guideranno.
           <br />
           <br />
-          Sii paziente, osserva attentamente le cifre e metti insieme il puzzle numerico. Quando avrai trovato la combinazione esatta, avrai accesso agli strumenti necessari per estrarre il ghiaccio magico che è vitale per il nostro incantesimo di Natale.
+          Troverai un enigma ad attenderti: un antico sudoku degli elfi che tiene nascosta la posizione del Kit. Risolvi il puzzle e il Kit di Costruzione della Meraviglia sarà tuo. Questo strumento straordinario ci permetterà di utilizzare al meglio tutto ciò che hai raccolto finora e di procedere verso il traguardo finale.
           <br />
           <br />
-          Concentrazione e precisione saranno le chiavi per decifrare questo enigma numerico, permettendoti di liberare il potere del ghiaccio magico e proseguire nel tuo nobile compito di portare la magia del Natale nel mondo.
+          Federica, sei la nostra speranza e stai dimostrando ancora una volta il tuo incredibile valore. Affronta questa sfida con il tuo solito spirito brillante e fai un altro passo verso il salvataggio del Natale!
           <br />
           <br />
           Con gratitudine e fiducia,
           <br />
-          Gli Elfi di Babbo Natale
+          <br />
+          Babbo Natale
         </p>
         <br />
         <br />

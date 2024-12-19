@@ -8,9 +8,9 @@ export default function Home() {
   const [nameInput, setNameInput] = useState("");
   const router = useRouter();
   const verify = () => {
-    if (nameInput.toLocaleLowerCase().trim() === "lettera" || nameInput.toLocaleLowerCase().trim() === "una lettera" || nameInput.toLocaleLowerCase().trim() === "la lettera"  ) {
+    if (nameInput.toLocaleLowerCase().trim() === "pidocchio") {
       console.log(nameInput)
-      router.push('/phase2')
+      router.push('/phase3')
     }
   }
 
@@ -21,28 +21,30 @@ export default function Home() {
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-lime-100">Cara Federica,</h5>
         </a>
         <p className="mb-3 font-normal text-lime-100">
-          Sotto il manto stellato della Foresta delle Lucciole, dove la luce danza nel buio, il Custode della Luce attende il tuo arrivo. Egli è il guardiano delle lucciole, custode della magia notturna, e solo tu puoi raggiungerlo per scoprire il segreto che tanto affligge in nostro mondo.
+          Sei stata fantastica a superare la prima prova e a riportare la Sabbia dei Sogni! Ora sei pronta per affrontare la seconda missione, che ti porterà lontano... molto lontano!
           <br />
           <br />
-          Quando giungerai alla chiara radura al centro della foresta, incontrerai il Custode delle lucciole, una sagoma misteriosa avvolta nel bagliore di tante luci, custode delle preziose gemme di luce. Egli, come tutti noi, è stato colpito dalla scomparsa delle stelle notturne e ora cerca qualcuno che possa preservare la luce della foresta.
+          Dovrai viaggiare fino alla Luna, un luogo misterioso e magico, dove il silenzio dell&#39;universo abbraccia ogni cosa. Lì, incontrerai il Saggio Lunare, un antico custode che protegge le leggendarie Rocce di Luna. Queste rocce hanno il potere di illuminare anche i cuori più bui e di guidare gli elfi con chiarezza e calma nel loro lavoro.
           <br />
           <br />
-          Ti darà il benvenuto con uno sguardo penetrante, e una danza di lucciole intorno a lui sarà il suo saluto. Se sarai pronto a dimostrare la tua ingegnosità e la tua dedizione al mistero delle stelle, ti proporrà un enigma da risolvere.
+          Per raggiungere la Luna, ti affiderò una tuta spaziale incantata, creata dai miei elfi inventori. Ti permetterà di viaggiare tra le stelle e muoverti con facilità sulla superficie lunare. Ma attenzione: il Saggio Lunare non ti consegnerà le Rocce così facilmente. Per guadagnarti la sua fiducia, dovrai risolvere un suo indovinello, un enigma antico quanto le stelle.
           <br />
           <br />
-          Solo se riuscirai a decifrare le parole magiche nascoste nell&#39;enigma, il guardiano delle lucciole ti presterà le lucciole, che con fiducia ti seguiranno attraverso il sentiero illuminato dalla loro stessa luce.
+          Ricorda, Federica, il Saggio Lunare apprezza la pazienza e l&#39;intuizione. Ascolta attentamente le sue parole, pensa con calma e segui la tua brillante mente. Solo allora le Rocce di Luna saranno tue, e con esse un altro pezzo della magia necessaria per salvare il Natale.
           <br />
           <br />
-          Ti chiediamo, Federica, di ascoltare con attenzione e di scrutare il mistero che circonda queste luci danzanti. Rispondi all&#39;enigma e guida le lucciole con saggezza, perché solo coloro che rispettano il potere della luce potranno vedere brillare il sentiero verso il ritorno della magia nella Foresta delle Lucciole.
+          Buon viaggio tra le stelle, piccola esploratrice! Noi tutti contiamo su di te.
           <br />
           <br />
-          Con speranza e fiducia,
-          Gli Elfi di Babbo Natale
+          Con affetto e fiducia,
+          <br />
+          <br />
+          Babbo Natale
         </p>
         <br />
         <br />
         <div className="max-w-sm p-6 bg-lime-100 border border-lime-200 rounded-lg italic text-lg">
-          Non cammina, non corre, ma spesso viaggia. Non ha bocca ma può dire molte parole. Cosa è?
+        Sono l&#39;unico animale che cammina con i piedi sulla testa
         </div>
         <br />
         <div>

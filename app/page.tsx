@@ -10,13 +10,13 @@ export default function Home() {
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-lime-100">Cara Federica,</h5>
         </a>
         <p className="mb-3 font-normal text-sm text-lime-100">
-          Spero che questa lettera ti trovi serena e pronta a vivere lo spirito del Natale. Mi rivolgo a te con una richiesta speciale, perché ricordo quanto sei stata brava l’anno scorso ad aiutare i miei elfi. Il tuo coraggio e la tua astuzia hanno salvato il Natale, e oggi abbiamo ancora bisogno del tuo aiuto.
+          Spero che questa lettera ti trovi serena e pronta a vivere lo spirito del Natale. Mi rivolgo a te con una richiesta speciale, perché ricordo quanto sei stata brava l&#39;anno scorso ad aiutare i miei elfi. Il tuo coraggio e la tua astuzia hanno salvato il Natale, e oggi abbiamo ancora bisogno del tuo aiuto.
           <br />
           <br />
-          C’è un grande problema qui al Polo Nord: gli elfi sono in preda all’agitazione! Con il Natale che si avvicina, la pressione è alta e il loro entusiasmo si è trasformato in un caos generale. Purtroppo, così facendo, lavorano male e non riescono a completare i preparativi. Se non riusciamo a calmarli e a riportare l’ordine, rischiamo di non riuscire a portare la magia del Natale a tutti i bambini del mondo!
+          C&#39;è un grande problema qui al Polo Nord: gli elfi sono in preda all&#39;agitazione! Con il Natale che si avvicina, la pressione è alta e il loro entusiasmo si è trasformato in un caos generale. Purtroppo, così facendo, lavorano male e non riescono a completare i preparativi. Se non riusciamo a calmarli e a riportare l&#39;ordine, rischiamo di non riuscire a portare la magia del Natale a tutti i bambini del mondo!
           <br />
           <br />
-          Per questo, Federica, mi rivolgo a te. Solo qualcuno con il tuo cuore gentile e la tua mente brillante può aiutarci a risolvere questa situazione. Gli elfi hanno preparato per te una serie di sfide e giochi che, una volta completati, aiuteranno a riportare l’armonia al Polo Nord. Ogni passo che compirai sarà un tassello per salvare il Natale e restituire serenità agli elfi.
+          Per questo, Federica, mi rivolgo a te. Solo qualcuno con il tuo cuore gentile e la tua mente brillante può aiutarci a risolvere questa situazione. Gli elfi hanno preparato per te una serie di sfide e giochi che, una volta completati, aiuteranno a riportare l&#39;armonia al Polo Nord. Ogni passo che compirai sarà un tassello per salvare il Natale e restituire serenità agli elfi.
           <br />
           <br />
           Gli elfi ti guideranno con delle lettere che troverai lungo il cammino. Segui i loro indizi, usa la tua intuizione e il tuo ingegno, e sono certo che riuscirai a compiere questa nuova impresa straordinaria.
@@ -38,7 +38,7 @@ export default function Home() {
           <a href="/grinch" className="px-3 py-2 text-sm font-medium text-center text-white bg-red-500 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 ">
             NON MI VA
           </a>
-          <a href="/phase1" className="px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
+          <a href="/phase2" className="px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
             CERTO
           </a>
         </div>

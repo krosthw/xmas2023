@@ -8,7 +8,7 @@ export default function Home() {
   const [nameInput, setNameInput] = useState("");
   const router = useRouter();
   const verify = () => {
-    if (nameInput.toLocaleLowerCase().trim() === "settemillimetri") {
+    if (nameInput.toLocaleLowerCase().trim() === "lake washington boulevard") {
       console.log(nameInput)
       router.push('/final')
     }
@@ -20,28 +20,33 @@ export default function Home() {
         <a href="#">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-lime-100">Cara Federica,</h5>
         </a>
+
         <p className="mb-3 font-normal text-lime-100">
-          Il tuo viaggio attraverso i misteri e le sfide delle terre innevate ha dimostrato la tua abilità nel superare gli enigmi e recuperare i tesori nascosti. Ora, il tuo cammino giunge alla gloriosa Fabbrica degli Elfi al Polo Nord, dove il Capo Ingegnere Lillo attende ansioso di unire i tesori da te raccolti per forgiare lo strumento che salverà la magia del Natale.
+          Grazie al tuo straordinario impegno, hai raccolto la Sabbia dei Sogni, le Rocce di Luna, e il Kit di Costruzione della Meraviglia. Ora sei pronta per affrontare l&#39;ultima sfida e completare l&#39;opera che salverà il Natale.
           <br />
           <br />
-          Con i materiali preziosi che hai recuperato dalla Foresta delle Lucciole, dalla Grotta degli Specchi e dal Villaggio Ghiacciato - le luminose lucciole, gli specchi incantati e il ghiaccio magico - hai portato con te i frammenti fondamentali per la creazione di un artefatto di grande potere.
+          Alla Fabbrica degli Elfi, troverai il nostro fidato Ingegnere Capo Lillo, sempre pieno di idee... ma anche di piccoli problemi. Quest&#39;anno, ha nuovamente cambiato la combinazione della sua cassetta degli attrezzi, per essere sicuro che nessuno la aprisse per sbaglio. Purtroppo, però, anche lui non ricorda la combinazione esatta!
           <br />
           <br />
-          Con il Capo Ingegnere Lillo come guida, sarai coinvolto nel processo creativo attraverso un codice cifrato, una serie di simboli e numeri che devono essere decodificati e interpretati correttamente per attivare la macchina che darà vita allo strumento salvatore del Natale.
+          Lillo ha trovato un foglietto con un indizio scritto sopra: sarà tuo compito risolvere questo enigma per aprire la cassetta e ottenere gli attrezzi necessari per completare l&#39;assemblaggio del dispositivo. La chiave del Natale si nasconde tra le parole: osserva, rifletti e troverai la soluzione.
           <br />
           <br />
-          Unisci la tua mente astuta a quella dell&#39;abile ingegnere, decifrando insieme il codice cifrato e inserendo i materiali raccolti nell&#39;apparato progettato per sfruttarne il potere. Con pazienza, intuito e la tua conoscenza dei misteri che hai affrontato lungo il cammino, contribuirai a dare vita a uno strumento capace di restituire la luce e la magia al Natale.
+          Con gli strumenti della cassetta e i materiali che hai raccolto, collaborerai con Lillo per costruire lo strumento magico che calmerà gli elfi e riporterà l&#39;armonia al Polo Nord. Questo sarà l&#39;ultimo tassello della tua grande impresa.
           <br />
           <br />
-          Con fiducia nell&#39;abilità e nel cuore, auguriamo il successo della tua missione.
+          Federica, sei stata incredibile fino a qui, e sono certo che anche questa volta supererai la sfida con il tuo ingegno e la tua determinazione. Noi tutti siamo orgogliosi di te e non vediamo l&#39;ora di vedere il Natale tornare a splendere grazie al tuo coraggio.
           <br />
-          Con infinita gratitudine e speranza,
-          Gli Elfi di Babbo Natale
+          <br />
+          Buona fortuna per questa missione finale, eroina del Natale!
+          <br />
+          <br />
+          Con infinita stima e gratitudine,
+          Babbo Natale
         </p>
         <br />
         <br />
         <div className="max-w-sm p-6 bg-lime-100 border border-lime-200 rounded-lg italic text-lg">
-          rigvnroornvggvh
+          Esco, vado a prendermi un gelato
         </div>
         <br />
         <div>

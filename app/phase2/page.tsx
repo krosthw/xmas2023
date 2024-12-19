@@ -10,9 +10,9 @@ export default function Home() {
   const [nameInput, setNameInput] = useState("");
   const router = useRouter();
   const verify = () => {
-    if (nameInput.toLocaleLowerCase().trim() === "fopc") {
+    if (nameInput.toLocaleLowerCase().trim() === "facili scalate") {
       console.log(nameInput)
-      router.push('/phase3')
+      router.push('/phase1')
     }
   }
 
@@ -23,24 +23,25 @@ export default function Home() {
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-lime-100">Cara Federica,</h5>
         </a>
         <p className="mb-3 font-normal text-lime-100">
-          Il cammino attraverso la Foresta delle Lucciole ha rivelato la tua abilità nel mantenere viva la luce del Natale. Ora, la tua via prosegue verso un luogo che sfida la percezione e la realtà: la Grotta degli Specchi.
+          Il tuo viaggio è appena iniziato, e già sento che il Natale è in buone mani grazie a te. La tua prima missione ti porterà in un luogo speciale: il Deserto Senza Tempo. Questo luogo, avvolto in un silenzio eterno, custodisce un tesoro prezioso per la nostra missione: la Sabbia dei Sogni.
           <br />
           <br />
-          Alla fine della foresta, troverai la bocca di una grotta nascosta dietro un albero maestoso, come se la natura stessa nascondesse il suo ingresso. La porta d&#39;ingresso è ornata da una serie di incisioni misteriose, e solo risolvendo un antico enigma potrai rivelarne il segreto e quindi entrare nella Grotta per recuperare gli specchi.
+          Questa sabbia magica ha il potere di calmare gli animi e riportare serenità anche nei cuori più agitati. È proprio ciò di cui i nostri elfi hanno bisogno per ritrovare la concentrazione e lavorare al meglio. Tuttavia, il Deserto Senza Tempo non concede i suoi doni così facilmente: per ottenere la Sabbia dei Sogni, dovrai risolvere un antico rebus lasciato dagli spiriti del deserto.
           <br />
           <br />
-          Le iniziali sulla porta, se interpretate correttamente, riveleranno una combinazione segreta. Esse sono un&#39;antica chiave che si collega ai custodi del cielo. Studia attentamente forme e nomi, perché sono esse a dettare la combinazione segreta che sbloccherà l&#39;accesso alla Grotta degli Specchi.
+          Non temere, Federica: la tua mente brillante è la chiave per superare questa sfida. Gli spiriti sono curiosi e amano mettere alla prova chiunque cerchi i loro tesori. Ricorda di osservare con attenzione ogni dettaglio e di pensare in modo creativo: il rebus ti guiderà.
           <br />
           <br />
-          Quando le tue conoscenze si uniranno, riuscirai a decifrare l&#39;antico codice che apre le porte della grotta, svelando il mondo di riflessi e illusioni che attendono al suo interno. Solo coloro che hanno dimostrato di comprendere l&#39;arcano dei cieli potranno accedere ai segreti nascosti nella Grotta degli Specchi.
+          Porta a termine questa missione e torna da noi con la Sabbia dei Sogni. Con il tuo aiuto, faremo un passo importante verso il Natale che tutti sogniamo.
           <br />
           <br />
-          Affronta questa sfida con saggezza e determinazione, Federica, e i segreti degli specchi si apriranno a te, portando la luce del mistero nella tua missione per riportare la magia del Natale nel mondo.
+          In bocca al lupo, piccola eroina!
           <br />
           <br />
-          Con fiducia e speranza,
+          Con fiducia e affetto,
           <br />
-          Gli Elfi di Babbo Natale
+          <br />
+          Babbo Natale
         </p>
         <br />
         <br />
