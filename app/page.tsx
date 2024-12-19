@@ -10,27 +10,55 @@ export default function Home() {
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-lime-100">Cara Federica,</h5>
         </a>
         <p className="mb-3 font-normal text-sm text-lime-100">
-          Con urgenza e speranza rivolgiamo il nostro appello a te in questo momento cruciale. Nelle ore oscure che precedono la magica notte di Natale, ci troviamo di fronte a un enigma che mette in pericolo la stessa essenza della festa più splendente dell&#39;anno.
+        
+
+import Image from 'next/image'
+
+export default function Home() {
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-between p-4">
+      <div className="max-w-sm p-6 bg-lime-900 border border-lime-200 rounded-lg shadow">
+        <a href="#">
+          <h5 className="mb-2 text-2xl font-bold tracking-tight text-lime-100">Cara Federica,</h5>
+        </a>
+        <p className="mb-3 font-normal text-sm text-lime-100">
+          Spero che questa lettera ti trovi serena e pronta a vivere lo spirito del Natale. Mi rivolgo a te con una richiesta speciale, perché ricordo quanto sei stata brava l’anno scorso ad aiutare i miei elfi. Il tuo coraggio e la tua astuzia hanno salvato il Natale, e oggi abbiamo ancora bisogno del tuo aiuto.
           <br />
           <br />
-          Nel quieto abbraccio del nostro remoto villaggio natalizio, il fulcro stesso della magia natalizia è stato colpito da un mistero inquietante. Le stelle, custodi e artigiani della magia che permea questa stagione di gioia e meraviglia, sono misteriosamente svanite dal cielo notturno.
+          C’è un grande problema qui al Polo Nord: gli elfi sono in preda all’agitazione! Con il Natale che si avvicina, la pressione è alta e il loro entusiasmo si è trasformato in un caos generale. Purtroppo, così facendo, lavorano male e non riescono a completare i preparativi. Se non riusciamo a calmarli e a riportare l’ordine, rischiamo di non riuscire a portare la magia del Natale a tutti i bambini del mondo!
           <br />
           <br />
-          L&#39;antica sapienza degli elfi di Babbo Natale non è stata sufficiente a comprendere o svelare questo oscuro mistero. E così, con cuore afflitto ma speranzoso, ci rivolgiamo a te, nota per la tua destrezza nel risolvere gli indovinelli più intricati.
+          Per questo, Federica, mi rivolgo a te. Solo qualcuno con il tuo cuore gentile e la tua mente brillante può aiutarci a risolvere questa situazione. Gli elfi hanno preparato per te una serie di sfide e giochi che, una volta completati, aiuteranno a riportare l’armonia al Polo Nord. Ogni passo che compirai sarà un tassello per salvare il Natale e restituire serenità agli elfi.
           <br />
           <br />
-          Le stelle, scintillanti custodi del nostro incantesimo natalizio, sono fondamentali illuminare la via che il nostro capo, Babbo Natale, deve seguire per poter consegnare tutti i regali. Il loro misterioso scomparire minaccia di privare il mondo della luce e della magia che solo il Natale sa donare.
+          Gli elfi ti guideranno con delle lettere che troverai lungo il cammino. Segui i loro indizi, usa la tua intuizione e il tuo ingegno, e sono certo che riuscirai a compiere questa nuova impresa straordinaria.
           <br />
           <br />
-          Chiediamo il tuo aiuto, o abile e valorosa, affinché possa svelare il mistero di questa scomparsa e restituire alle stelle il loro posto nel cielo notturno. Speriamo che la tua saggezza e il tuo coraggio possano rischiarare il cammino verso la soluzione di questo enigma e garantire che la magia del Natale non venga offuscata.
+          Grazie di cuore, Federica. Noi tutti contiamo su di te!
           <br />
           <br />
-          Accogli il nostro appello, o custode della speranza, e vieni in nostro soccorso.
+          Con affetto e fiducia,
           <br />
           <br />
-          Con fiducia e gratitudine,
-          <br />
-          Gli Elfi di Babbo Natale
+          Babbo Natale
+        </p>
+        <br />
+        <div>
+          <label htmlFor="input1" className="block mb-2 text-sm font-medium text-white">Accetti??:</label>
+        </div>
+        <div className=" flex justify-around">
+          <a href="/grinch" className="px-3 py-2 text-sm font-medium text-center text-white bg-red-500 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 ">
+            NON MI VA
+          </a>
+          <a href="/phase1" className="px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
+            CERTO
+          </a>
+        </div>
+      </div>
+
+    </main>
+  )
+}
         </p>
         <br />
         <div>
