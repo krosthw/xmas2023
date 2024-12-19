@@ -10,18 +10,6 @@ export default function Home() {
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-lime-100">Cara Federica,</h5>
         </a>
         <p className="mb-3 font-normal text-sm text-lime-100">
-        
-
-import Image from 'next/image'
-
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-4">
-      <div className="max-w-sm p-6 bg-lime-900 border border-lime-200 rounded-lg shadow">
-        <a href="#">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-lime-100">Cara Federica,</h5>
-        </a>
-        <p className="mb-3 font-normal text-sm text-lime-100">
           Spero che questa lettera ti trovi serena e pronta a vivere lo spirito del Natale. Mi rivolgo a te con una richiesta speciale, perché ricordo quanto sei stata brava l’anno scorso ad aiutare i miei elfi. Il tuo coraggio e la tua astuzia hanno salvato il Natale, e oggi abbiamo ancora bisogno del tuo aiuto.
           <br />
           <br />
@@ -52,24 +40,6 @@ export default function Home() {
           </a>
           <a href="/phase1" className="px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
             CERTO
-          </a>
-        </div>
-      </div>
-
-    </main>
-  )
-}
-        </p>
-        <br />
-        <div>
-          <label htmlFor="input1" className="block mb-2 text-sm font-medium text-white">Accetti??:</label>
-        </div>
-        <div className=" flex justify-around">
-          <a href="/grinch" className="px-3 py-2 text-sm font-medium text-center text-white bg-red-500 rounded-lg hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 ">
-            NON MI VA
-          </a>
-          <a href="/phase1" className="px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
-            CERTO 
           </a>
         </div>
       </div>
