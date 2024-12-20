@@ -3,16 +3,16 @@ import Image from 'next/image'
 import { useRouter, } from 'next/navigation';
 import router from 'next/router';
 import { useState, useEffect } from 'react';
-import profilePic from '@/media/sudoku.png'
+import profilePic from '@/media/sudoku2.jpg'
 import sudokunumber from '@/media/sudoku_number.png'
-import sudokuorder from '@/media/sudoku_order.png'
+import sudokuorder from '@/media/sudoku_order2.png'
 
 
 export default function Home() {
   const [nameInput, setNameInput] = useState("");
   const router = useRouter();
   const verify = () => {
-    if (nameInput.toLocaleLowerCase().trim() === "1") {
+    if (nameInput.toLocaleLowerCase().trim() === "964892374") {
       console.log(nameInput)
       router.push('/phase4')
     }
